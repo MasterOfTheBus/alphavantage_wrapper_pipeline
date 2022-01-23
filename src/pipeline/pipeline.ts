@@ -41,7 +41,10 @@ export class PipelineStack extends Stack {
     });
 
     pipeline.pipeline.addStage(
-      new ServiceStage(this ,'AlphaVService', { env: env })
+      new ServiceStage(this ,'AlphaVService',
+        { artifactBucket: bucketArn, artifactKeys: [artifactKey] },
+        { env: env }
+      )
     );
   }
 }
