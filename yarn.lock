@@ -565,6 +565,11 @@
     chalk "^4.1.2"
     semver "^7.3.5"
 
+"@masterofthebus/cdk-pipeline-lib@0.1.18":
+  version "0.1.18"
+  resolved "https://npm.pkg.github.com/download/@masterofthebus/cdk-pipeline-lib/0.1.18/04745d430316250678a542ae31f926125c23f1ee78cce543f3cbcf20ec286f25#5a2cab72cf40504f8487ba3fb0b72b441439f42d"
+  integrity sha512-gYgr0abkKKg2LRKuDzbyy535c2YnQMEiCwjBFRc+aCAIVaQvHA3rmpshQ2qwfYx603XuMK3zeSKdz9YsRmjRCA==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"

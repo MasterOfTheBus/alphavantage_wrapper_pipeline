@@ -1,5 +1,6 @@
 {
   "name": "alphavantage_wrapper_pipeline",
+  "description": "Creates a pipeline for a service that interacts with AlphaVantage API",
   "scripts": {
     "build": "npx projen build",
     "bundle": "npx projen bundle",
@@ -24,6 +25,7 @@
     "projen": "npx projen"
   },
   "devDependencies": {
+    "@masterofthebus/cdk-pipeline-lib": "0.1.18",
     "@types/jest": "^27.4.0",
     "@types/node": "^12",
     "@typescript-eslint/eslint-plugin": "^5",
@@ -44,6 +46,7 @@
     "typescript": "^4.5.4"
   },
   "dependencies": {
+    "@masterofthebus/cdk-pipeline-lib": "0.1.18",
     "aws-cdk-lib": "^2.0.0",
     "constructs": "^10.0.5"
   },

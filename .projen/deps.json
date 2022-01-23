@@ -1,6 +1,11 @@
 {
   "dependencies": [
     {
+      "name": "@masterofthebus/cdk-pipeline-lib",
+      "version": "0.1.18",
+      "type": "build"
+    },
+    {
       "name": "@types/jest",
       "type": "build"
     },
@@ -79,6 +84,11 @@
     {
       "name": "typescript",
       "type": "build"
+    },
+    {
+      "name": "@masterofthebus/cdk-pipeline-lib",
+      "version": "0.1.18",
+      "type": "runtime"
     },
     {
       "name": "aws-cdk-lib",
